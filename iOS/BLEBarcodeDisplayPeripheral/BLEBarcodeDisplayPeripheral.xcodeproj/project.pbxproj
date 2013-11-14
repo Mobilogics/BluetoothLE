@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		209DA304180B977000EF3F04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209DA303180B977000EF3F04 /* Foundation.framework */; };
+		209DA306180B977000EF3F04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209DA305180B977000EF3F04 /* CoreGraphics.framework */; };
+		209DA308180B977000EF3F04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209DA307180B977000EF3F04 /* UIKit.framework */; };
+		209DA30E180B977000EF3F04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 209DA30C180B977000EF3F04 /* InfoPlist.strings */; };
+		209DA310180B977000EF3F04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 209DA30F180B977000EF3F04 /* main.m */; };
+		209DA314180B977000EF3F04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 209DA313180B977000EF3F04 /* AppDelegate.m */; };
+		209DA317180B977000EF3F04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209DA315180B977000EF3F04 /* Main.storyboard */; };
+		209DA31A180B977000EF3F04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 209DA319180B977000EF3F04 /* ViewController.m */; };
+		209DA31C180B977000EF3F04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209DA31B180B977000EF3F04 /* Images.xcassets */; };
+		209DA323180B977000EF3F04 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209DA322180B977000EF3F04 /* XCTest.framework */; };
+		209DA324180B977000EF3F04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209DA303180B977000EF3F04 /* Foundation.framework */; };
+		209DA325180B977000EF3F04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209DA307180B977000EF3F04 /* UIKit.framework */; };
+		209DA32D180B977000EF3F04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 209DA32B180B977000EF3F04 /* InfoPlist.strings */; };
+		209DA32F180B977000EF3F04 /* BLEBarcodeDisplayPeripheralTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 209DA32E180B977000EF3F04 /* BLEBarcodeDisplayPeripheralTests.m */; };
+		209DA3C6180BBF5200EF3F04 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209DA3C5180BBF5200EF3F04 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		209DA326180B977000EF3F04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 209DA2F8180B977000EF3F04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 209DA2FF180B977000EF3F04;
+			remoteInfo = BLEBarcodeDisplayPeripheral;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		209DA300180B977000EF3F04 /* BLEBarcodeDisplayPeripheral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEBarcodeDisplayPeripheral.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		209DA303180B977000EF3F04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		209DA305180B977000EF3F04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		209DA307180B977000EF3F04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		209DA30B180B977000EF3F04 /* BLEBarcodeDisplayPeripheral-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLEBarcodeDisplayPeripheral-Info.plist"; sourceTree = "<group>"; };
+		209DA30D180B977000EF3F04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		209DA30F180B977000EF3F04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		209DA311180B977000EF3F04 /* BLEBarcodeDisplayPeripheral-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLEBarcodeDisplayPeripheral-Prefix.pch"; sourceTree = "<group>"; };
+		209DA312180B977000EF3F04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		209DA313180B977000EF3F04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		209DA316180B977000EF3F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		209DA318180B977000EF3F04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		209DA319180B977000EF3F04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		209DA31B180B977000EF3F04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		209DA321180B977000EF3F04 /* BLEBarcodeDisplayPeripheralTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEBarcodeDisplayPeripheralTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		209DA322180B977000EF3F04 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		209DA32A180B977000EF3F04 /* BLEBarcodeDisplayPeripheralTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLEBarcodeDisplayPeripheralTests-Info.plist"; sourceTree = "<group>"; };
+		209DA32C180B977000EF3F04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		209DA32E180B977000EF3F04 /* BLEBarcodeDisplayPeripheralTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEBarcodeDisplayPeripheralTests.m; sourceTree = "<group>"; };
+		209DA3C5180BBF5200EF3F04 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		209DA2FD180B977000EF3F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209DA3C6180BBF5200EF3F04 /* CoreBluetooth.framework in Frameworks */,
+				209DA306180B977000EF3F04 /* CoreGraphics.framework in Frameworks */,
+				209DA308180B977000EF3F04 /* UIKit.framework in Frameworks */,
+				209DA304180B977000EF3F04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209DA31E180B977000EF3F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209DA323180B977000EF3F04 /* XCTest.framework in Frameworks */,
+				209DA325180B977000EF3F04 /* UIKit.framework in Frameworks */,
+				209DA324180B977000EF3F04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209DA2F7180B977000EF3F04 = {
+			isa = PBXGroup;
+			children = (
+				209DA309180B977000EF3F04 /* BLEBarcodeDisplayPeripheral */,
+				209DA328180B977000EF3F04 /* BLEBarcodeDisplayPeripheralTests */,
+				209DA302180B977000EF3F04 /* Frameworks */,
+				209DA301180B977000EF3F04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		209DA301180B977000EF3F04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				209DA300180B977000EF3F04 /* BLEBarcodeDisplayPeripheral.app */,
+				209DA321180B977000EF3F04 /* BLEBarcodeDisplayPeripheralTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		209DA302180B977000EF3F04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				209DA3C5180BBF5200EF3F04 /* CoreBluetooth.framework */,
+				209DA303180B977000EF3F04 /* Foundation.framework */,
+				209DA305180B977000EF3F04 /* CoreGraphics.framework */,
+				209DA307180B977000EF3F04 /* UIKit.framework */,
+				209DA322180B977000EF3F04 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		209DA309180B977000EF3F04 /* BLEBarcodeDisplayPeripheral */ = {
+			isa = PBXGroup;
+			children = (
+				209DA312180B977000EF3F04 /* AppDelegate.h */,
+				209DA313180B977000EF3F04 /* AppDelegate.m */,
+				209DA315180B977000EF3F04 /* Main.storyboard */,
+				209DA318180B977000EF3F04 /* ViewController.h */,
+				209DA319180B977000EF3F04 /* ViewController.m */,
+				209DA31B180B977000EF3F04 /* Images.xcassets */,
+				209DA30A180B977000EF3F04 /* Supporting Files */,
+			);
+			path = BLEBarcodeDisplayPeripheral;
+			sourceTree = "<group>";
+		};
+		209DA30A180B977000EF3F04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				209DA30B180B977000EF3F04 /* BLEBarcodeDisplayPeripheral-Info.plist */,
+				209DA30C180B977000EF3F04 /* InfoPlist.strings */,
+				209DA30F180B977000EF3F04 /* main.m */,
+				209DA311180B977000EF3F04 /* BLEBarcodeDisplayPeripheral-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		209DA328180B977000EF3F04 /* BLEBarcodeDisplayPeripheralTests */ = {
+			isa = PBXGroup;
+			children = (
+				209DA32E180B977000EF3F04 /* BLEBarcodeDisplayPeripheralTests.m */,
+				209DA329180B977000EF3F04 /* Supporting Files */,
+			);
+			path = BLEBarcodeDisplayPeripheralTests;
+			sourceTree = "<group>";
+		};
+		209DA329180B977000EF3F04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				209DA32A180B977000EF3F04 /* BLEBarcodeDisplayPeripheralTests-Info.plist */,
+				209DA32B180B977000EF3F04 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		209DA2FF180B977000EF3F04 /* BLEBarcodeDisplayPeripheral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209DA332180B977000EF3F04 /* Build configuration list for PBXNativeTarget "BLEBarcodeDisplayPeripheral" */;
+			buildPhases = (
+				209DA2FC180B977000EF3F04 /* Sources */,
+				209DA2FD180B977000EF3F04 /* Frameworks */,
+				209DA2FE180B977000EF3F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLEBarcodeDisplayPeripheral;
+			productName = BLEBarcodeDisplayPeripheral;
+			productReference = 209DA300180B977000EF3F04 /* BLEBarcodeDisplayPeripheral.app */;
+			productType = "com.apple.product-type.application";
+		};
+		209DA320180B977000EF3F04 /* BLEBarcodeDisplayPeripheralTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209DA335180B977000EF3F04 /* Build configuration list for PBXNativeTarget "BLEBarcodeDisplayPeripheralTests" */;
+			buildPhases = (
+				209DA31D180B977000EF3F04 /* Sources */,
+				209DA31E180B977000EF3F04 /* Frameworks */,
+				209DA31F180B977000EF3F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				209DA327180B977000EF3F04 /* PBXTargetDependency */,
+			);
+			name = BLEBarcodeDisplayPeripheralTests;
+			productName = BLEBarcodeDisplayPeripheralTests;
+			productReference = 209DA321180B977000EF3F04 /* BLEBarcodeDisplayPeripheralTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		209DA2F8180B977000EF3F04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Evan Wu";
+				TargetAttributes = {
+					209DA320180B977000EF3F04 = {
+						TestTargetID = 209DA2FF180B977000EF3F04;
+					};
+				};
+			};
+			buildConfigurationList = 209DA2FB180B977000EF3F04 /* Build configuration list for PBXProject "BLEBarcodeDisplayPeripheral" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 209DA2F7180B977000EF3F04;
+			productRefGroup = 209DA301180B977000EF3F04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				209DA2FF180B977000EF3F04 /* BLEBarcodeDisplayPeripheral */,
+				209DA320180B977000EF3F04 /* BLEBarcodeDisplayPeripheralTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		209DA2FE180B977000EF3F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209DA31C180B977000EF3F04 /* Images.xcassets in Resources */,
+				209DA30E180B977000EF3F04 /* InfoPlist.strings in Resources */,
+				209DA317180B977000EF3F04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209DA31F180B977000EF3F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209DA32D180B977000EF3F04 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		209DA2FC180B977000EF3F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209DA31A180B977000EF3F04 /* ViewController.m in Sources */,
+				209DA314180B977000EF3F04 /* AppDelegate.m in Sources */,
+				209DA310180B977000EF3F04 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209DA31D180B977000EF3F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209DA32F180B977000EF3F04 /* BLEBarcodeDisplayPeripheralTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		209DA327180B977000EF3F04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 209DA2FF180B977000EF3F04 /* BLEBarcodeDisplayPeripheral */;
+			targetProxy = 209DA326180B977000EF3F04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		209DA30C180B977000EF3F04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209DA30D180B977000EF3F04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		209DA315180B977000EF3F04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209DA316180B977000EF3F04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		209DA32B180B977000EF3F04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209DA32C180B977000EF3F04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		209DA330180B977000EF3F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		209DA331180B977000EF3F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		209DA333180B977000EF3F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEBarcodeDisplayPeripheral/BLEBarcodeDisplayPeripheral-Prefix.pch";
+				INFOPLIST_FILE = "BLEBarcodeDisplayPeripheral/BLEBarcodeDisplayPeripheral-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		209DA334180B977000EF3F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEBarcodeDisplayPeripheral/BLEBarcodeDisplayPeripheral-Prefix.pch";
+				INFOPLIST_FILE = "BLEBarcodeDisplayPeripheral/BLEBarcodeDisplayPeripheral-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		209DA336180B977000EF3F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BLEBarcodeDisplayPeripheral.app/BLEBarcodeDisplayPeripheral";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEBarcodeDisplayPeripheral/BLEBarcodeDisplayPeripheral-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BLEBarcodeDisplayPeripheralTests/BLEBarcodeDisplayPeripheralTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		209DA337180B977000EF3F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BLEBarcodeDisplayPeripheral.app/BLEBarcodeDisplayPeripheral";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEBarcodeDisplayPeripheral/BLEBarcodeDisplayPeripheral-Prefix.pch";
+				INFOPLIST_FILE = "BLEBarcodeDisplayPeripheralTests/BLEBarcodeDisplayPeripheralTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		209DA2FB180B977000EF3F04 /* Build configuration list for PBXProject "BLEBarcodeDisplayPeripheral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209DA330180B977000EF3F04 /* Debug */,
+				209DA331180B977000EF3F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209DA332180B977000EF3F04 /* Build configuration list for PBXNativeTarget "BLEBarcodeDisplayPeripheral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209DA333180B977000EF3F04 /* Debug */,
+				209DA334180B977000EF3F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209DA335180B977000EF3F04 /* Build configuration list for PBXNativeTarget "BLEBarcodeDisplayPeripheralTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209DA336180B977000EF3F04 /* Debug */,
+				209DA337180B977000EF3F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 209DA2F8180B977000EF3F04 /* Project object */;
+}
